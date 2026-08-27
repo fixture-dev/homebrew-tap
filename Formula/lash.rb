@@ -1,25 +1,25 @@
 class Lash < Formula
   desc "Minimalist, Markdown-native task tracker for devs and agents"
   homepage "https://github.com/fixture-dev/lash"
-  version "0.4.0"
+  version "0.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/fixture-dev/lash/releases/download/v0.4.0/lash-aarch64-apple-darwin.tar.xz"
-      sha256 "f1a36f865e30c523f03f41bf72386e2cb8a9d167ddc8d0a12918ce241311b6e5"
+      url "https://github.com/fixture-dev/lash/releases/download/v0.5.0/lash-aarch64-apple-darwin.tar.xz"
+      sha256 "df55c1843466fe7a23faabe85873c124b366b901310b7da1199925f55132ca75"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/fixture-dev/lash/releases/download/v0.4.0/lash-x86_64-apple-darwin.tar.xz"
-      sha256 "2cbc8bf3db1fa0473afff34db481005c2b77647a2517858983067df9516be3e2"
+      url "https://github.com/fixture-dev/lash/releases/download/v0.5.0/lash-x86_64-apple-darwin.tar.xz"
+      sha256 "ae90b6c9dd90dd7d786c21b4c8e011d7fb838c03372994a5337fbbdf18c15fd2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/fixture-dev/lash/releases/download/v0.4.0/lash-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ccd6ef5f0e1b9e23171fa68bb55971ea1feb3be5450ff13a390eb5083d819335"
+      url "https://github.com/fixture-dev/lash/releases/download/v0.5.0/lash-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "858ca3389cb6d16f475af91bc4f89c1596cdc7cb6dd807c7c3c4b1bf8b23045b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/fixture-dev/lash/releases/download/v0.4.0/lash-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7e067a875cfd687eefd6712dc7157d3778c1fdf6fc33746f0014b2f5f1abe695"
+      url "https://github.com/fixture-dev/lash/releases/download/v0.5.0/lash-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "30c7202830e93565297d1974c81f55c0a2e6491ecc0918ee0db5d19ff97f21f5"
     end
   end
   license "Apache-2.0"
